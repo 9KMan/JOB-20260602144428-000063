@@ -1,0 +1,10 @@
+# Python dependencies for GTN Trade API Integration
+pyodbc>=5.0.1
+psycopg2-binary>=2.9.9
+pyyaml>=6.0.1
+python-dateutil>=2.8.2
+requests>=2.31.0
+websockets>=12.0
+pydantic>=2.5.0
+fastapi>=0.109.0
+uvicorn>=0.27.0

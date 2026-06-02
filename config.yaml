@@ -1,0 +1,29 @@
+# GTN Trade API Configuration
+gtn:
+  api:
+    base_url: "https://api.gtntrade.com"
+    api_key: "${GTN_API_KEY}"
+    order_search_endpoint: "/v1/orders/search"
+  websocket:
+    url: "wss://ws.gtntrade.com/events"
+    reconnect_delay: 5
+    ping_interval: 30
+
+database:
+  # SQL Server configuration
+  sqlserver:
+    driver: "ODBC Driver 17 for SQL Server"
+    server: "${SQL_SERVER}"
+    database: "${SQL_DATABASE}"
+    uid: "${SQL_UID}"
+    pwd: "${SQL_PWD}"
+    trusted_connection: "no"
+    timeout: 30
+
+  # For system tables
+  system:
+    schema: "dbo"
+
+app:
+  log_level: "INFO"
+  environment: "${APP_ENV:development}"
