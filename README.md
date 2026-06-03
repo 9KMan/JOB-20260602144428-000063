@@ -1,6 +1,5 @@
 # GTN Trade API & WebSocket Integration — Python Backend
 
-**Lead:** https://www.upwork.com/jobs/~022061767919755273499
 **Client:** GTN Trade API Integration
 **Tier:** MEDIUM | **Budget:** hourly ($15-35/hr, <30hrs/wk, <1mo, contract-to-hire)
 
